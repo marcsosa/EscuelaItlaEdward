@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">testappdb</string>
+    <string name="nombre">Nombre</string>
+    <string name="registro_de_estudiantes">REGISTRO DE ESTUDIANTES</string>
+    <string name="name">Name</string>
+    <string name="matricula">Matricula</string>
+</resources>

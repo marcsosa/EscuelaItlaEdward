@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:forceDarkAllowed="false"
+            android:text="Nombre:"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCarrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:forceDarkAllowed="false"
+            android:text="Ing en sistemas"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtmaterias2"
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:forceDarkAllowed="false"
+            android:text="Materias"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/txtcred1"
+
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:forceDarkAllowed="false"
+            android:text="Creditos"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtmaterias"
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:forceDarkAllowed="false"
+            android:text="0"
+            android:textAlignment="viewStart"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/txtcreditos2"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:forceDarkAllowed="false"
+            android:text="0"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+</LinearLayout>
